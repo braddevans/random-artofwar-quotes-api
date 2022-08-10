@@ -1,0 +1,26 @@
+{
+  "name": "kbd-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --ext js,ejs --ignore data",
+    "run": "nodemon --ext js,ejs --ignore data"
+  },
+  "keywords": [],
+  "author": "slicedbread",
+  "license": "ISC",
+  "dependencies": {
+    "@sapphire/time-utilities": "^1.7.4",
+    "colorette": "^2.0.19",
+    "dotenv": "^16.0.1",
+    "ejs": "^3.1.8",
+    "enmap": "^5.9.0",
+    "express": "^4.18.1",
+    "node-schedule": "^2.1.0",
+    "nodemon": "^2.0.16",
+    "request": "^2.88.2",
+    "jsdom": "^20.0.0",
+    "jquery": "^3.6.0"
+  }
+}
